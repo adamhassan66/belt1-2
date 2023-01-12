@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beltexam</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!--=====================SCORED ON TOP=================================  -->
+
+  <div class="topscores">
+    <div class="livescores">
+      <h2>Live Scores</h2>
+    </div>
+    <div class="col1">
+      <p>SJC Ninjas - 314</p>
+      <p>Ns Pirates - 159</p>
+    </div>
+    <div class="col2">
+      <p>CHI Samurai - 0</p>
+      <p>TUL Wizards - 0</p>
+    </div>
+    <div class="col3">
+      <p>BOS Hackers - 13</p>
+      <p>TYO Youkai - 37</p>
+    </div>
+    <div class="col4">
+      <p>BOI Knights - 5</p>
+      <p>SEA Sea Lions - 11</p>
+    </div>
+  </div>
+
+  <!-- ====================NAVBAR======================================== -->
+
+  <div class="navbar">
+    <div class="dsnn">
+      <h2>DSNN</h2>
+    </div>
+    <div class="middlenavbar">
+      <h1>Football Basketball Baseball Soccer More...</h1>
+    </div>
+    <div class="icons">
+      <img src="./search-light.png" class="search" alt="magnify">
+      <img src="./hamburger-light.png" class="hamburger" alt="hamburger">
+      <img src="./user-circle-light.png" class="user" alt="user">
+    </div>
+  </div>
+
+  <!--======================BOXES ON THE LEFT SIDE=====================  -->
+  <div class="entirepage">
+    <div class="leftside">
+      <div class="topleft">
+        <div class="header">
+          <h2>Top Stories
+          </h2>
+        </div>
+        <div class="info">
+          <p>Ninjas up big in 5th</p>
+          <p>Best sport cities</p>
+          <p>Choi joins hall of fame</p>
+          <p>Tournament underway</p>
+          <p>Samurai at wizards...</p>
+        </div>
+      </div>
+
+      <!-- =======================MIDDLE LEFT================================ -->
+
+      <div class="middleleft">
+        <div class="upperpart">
+          <h2>Customize your DSNN</h2>
+        </div>
+        <div class="signinbutton">
+          <button class="signin">Sign In</button>
+          <button class="signup">Sign Up</button>
+        </div>
+      </div>
+
+      <!-- ========================BOTTOM LEFT================================= -->
+
+      <div onclick="removebottom(this)" class="bottomleft">
+        <h2>Never miss a play</h2>
+        <button onclick="removebottom()" class="subscribe">Subscribe</button>
+      </div>
+    </div>
+
+    <!-- =====================BIG BOX ON THE RIGHT========================= -->
+
+    <div class="rightside">
+      <div class="header1">
+        <h1>.Live</h1>
+        <h2> Ninjas Leading Pirates</h2>
+      </div>
+      <div class="display">
+        <div class="firstpart">
+          <img src="./sjc-ninjas.png" class="star" alt="star">
+          <h3>San Jose</h3>
+          <h1>Ninjas</h1>
+          <p>(10 W - 3 L)</p>
+          <h1><span onclick="score1()" id="firstnum">314</span></h1>
+          <!-- <button onclick="score1()" class="score">.</button> -->
+        </div>
+        <div class="secondpart">
+          <div class="vs">
+            <h2>VS</h2>
+            <p>0:13 remaining<br>5th period</p>
+          </div>
+        </div>
+        <div class="lastpart">
+          <img src="./ns-pirates.png" class="pirates" alt="pirates">
+          <h3>Nova Scotia</h3>
+          <h1>Pirates</h1>
+          <p>(12 W - 2 L)</p>
+          <h1><span onclick="score2()" id="secnum">159</span></h1>
+          <!-- <button onclick="score2()" class="score2">.</button> -->
+        </div>
+        <!-- <div class="bottomnavbar"> -->
+      </div>
+      <p>A conservative match between the two top-performing sides in the Central League Division with a number 1
+        seed
+        at stake <a href="#">get live updates</a></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

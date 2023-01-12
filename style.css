@@ -1,0 +1,248 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: sans-serif;
+}
+
+.topscores {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.dsnn h2 {
+  background-color: rgb(233, 63, 51);
+  width: 80px;
+  color: black;
+}
+
+.navbar {
+  background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.middlenavbar {
+  color: white;
+}
+
+.icons {
+  height: 70px;
+}
+
+.header {
+  border: 2px black;
+  height: 70px;
+}
+
+.topleft {
+  margin-left: 300px;
+  margin-top: 30px;
+  /* border: 2px solid; */
+  width: 300px;
+  height: 300px;
+}
+
+.middleleft {
+  margin-left: 300px;
+  width: 300px;
+  /* border: 2px solid; */
+  height: 150px;
+  margin-top: 30px;
+}
+
+
+.bottomleft {
+  margin-left: 300px;
+  width: 300px;
+  /* border: 2px solid; */
+  height: 150px;
+  margin-top: 30px;
+}
+
+/* .entirepage {
+  display: flex;
+} */
+
+.rightside {
+  /* display: flex; */
+  /* border: 2px solid; */
+  border-radius: 40px;
+  background-color: white;
+  width: 500px;
+  margin-left: 40px;
+  height: 500px;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+.bottomnavbar {
+  margin-top: 300px;
+  /* padding-right: 40px; */
+  margin-right: 50px;
+
+}
+
+.subscribe {
+  background-color: rgb(253, 229, 153);
+  height: 50px;
+  width: 250px;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+
+.entirepage {
+  display: flex;
+  background-color: rgb(221, 221, 221);
+}
+
+
+.signin {
+
+  margin-left: 40px;
+  margin-top: 40px;
+  background-color: rgb(63, 133, 233);
+  width: 80px;
+  height: 40px;
+  color: white;
+  border: 2px;
+  box-shadow: 3px 3px 3px black;
+}
+
+.signup {
+  background-color: white;
+  width: 80px;
+  height: 40px;
+  color: black;
+  border: 2px black;
+  box-shadow: 3px 3px 3px;
+}
+
+.topleft {
+  background-color: white;
+  border-radius: 40px;
+}
+
+.middleleft {
+  background-color: white;
+  border-radius: 40px;
+}
+
+.bottomleft {
+  background-color: white;
+  border-radius: 40px;
+}
+
+.bottomleft h2 {
+  margin-left: 30px;
+}
+
+.upperpart h2 {
+  margin-left: 25px;
+
+
+}
+
+.star {
+  width: 100px;
+}
+
+.pirates {
+  width: 100px;
+}
+
+.header h2 {
+  margin-left: 30px;
+  border-bottom: 2px black;
+}
+
+.info {
+  align-content: space-between;
+}
+
+.firstpart {
+  margin-top: 35px;
+  margin-left: 50px;
+  /* margin-top: 100px;
+  margin-right: 40px; */
+}
+
+.secondpart {
+  margin-left: 40px;
+  margin-top: 100px;
+  /* margin-top: 200px; */
+}
+
+.lastpart {
+  margin-top: 30px;
+  margin-left: 50px;
+  /* margin-top: 100px;
+  margin-left: 30px; */
+}
+
+.header h1 {
+  margin-left: 60px;
+  display: flex;
+}
+
+.firstpart h1 {
+  color: rgb(75, 164, 168);
+
+}
+
+.lastpart h1 {
+  color: rgb(212, 57, 60);
+}
+
+.firstpart p {
+  color: rgb(152, 151, 152);
+}
+
+.lastpart p {
+  color: rgb(152, 151, 152);
+
+
+}
+
+.header1 h1 {
+  color: rgb(194, 84, 78);
+}
+
+.header1 h2 {
+  margin-left: 70px;
+}
+
+.display {
+
+  display: flex;
+  margin-bottom: 50px;
+}
+
+
+.rightside p3 {
+  margin-bottom: 80px;
+}
+
+.firstpart span{
+  font-size: xx-large;
+}
+
+.lastpart span{
+  font-size: xx-large;
+}
+
+.header1{
+  display: flex;
+}
+
+.middlenavbar{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.info p{
+  font-size: larger;
+  margin-left: 20px;
+  align-items: ;
+}
